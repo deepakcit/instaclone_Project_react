@@ -8,7 +8,7 @@ import "../styles/postViewPage.css";
 const PostViewPage = () => {
     const [posts, setPosts] = useState([]);
     const retrievePosts = async() => {
-        await axios.get("https://instaclone-nodejs.onrender.com/posts").then(data => {
+        await axios.get(" ").then(data => {
             console.log(data.data);
             setPosts(data.data);
         }).catch(err => {
