@@ -1,0 +1,60 @@
+#postContainer{
+    width: 700px;
+    margin: auto;
+    font-size: 10px;
+}
+.post{
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    text-align: left;
+}
+.post .postheader{
+    display: flex;
+    height: 35px;
+}
+.post .postimage img{
+    width: 300px;
+    height: 150px;
+}
+.post .postheader .posticon{
+    height: 15px;
+    font-size: 16px;
+    font-weight: 900;
+}
+.post .postheader .postnamebox{
+    margin-left: 10px;
+    text-align: left;
+    align-items: center;
+    width: 260px;
+    margin-top: 5px;
+}
+.post .postheader .postnamebox .postname{
+    font-weight: 700;
+}
+.post .postfooter .postfootertop .postlikesicons .posticons{
+    width: 15px;
+    height: 15px;
+}
+.post .postfooter .postfootertop{
+    display: flex;
+}
+.post .postfooter .postfootertop .postlikesicons{
+    margin-left: 10px;
+    width: 220px;
+}
+.post .postfooter .postfootertop .postlikesicons .postheart{
+    margin-right: 10px;
+}
+.post .postfooter .postfooterbottom{
+    margin-left: 10px;
+}
+.post .postdescription{
+    font-weight: 900;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#waiting{
+    margin-top: 100px;
+}

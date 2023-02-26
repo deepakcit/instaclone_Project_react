@@ -1,0 +1,25 @@
+#headerContainer{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-bottom: 2px solid #006238;
+}
+.logo{
+    width: 20px;
+    height: 20px;
+}
+#headerText{
+    font-size: 20px;
+    color: #006238;
+    font-weight: 500;
+    width: 65%;
+    text-align: left;
+    margin-left: 5px;
+}
+#headerlogo{
+    margin-left: 10%;
+}
+#headercamera{
+    text-align: right;
+    margin-left: 10%;
+}
